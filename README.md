@@ -1,7 +1,10 @@
+# Audio Recorder Project
+This project is short PoC a web application that allows users to record audio and upload it to a server. The frontend is built with React, and the backend is built with Flask.
+
 git clone https://github.com/yourusername/AudioRecorderProject.git
 cd AudioRecorderProject
 
-#Setup the backend
+# Setup the backend
 cd MockAPI
 python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
