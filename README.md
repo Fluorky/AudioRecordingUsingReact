@@ -14,9 +14,11 @@ This project is short PoC a web application that allows users to record audio an
 `python -m app.py` or `python3 app.py` (if you use linux/MacOS) <br/>
 
 ## Setup the frontend:
-Install react in this folrer using `npm install` <br/>
-Go to audio-recorder folder and use this command <br/>
-`npm install react-mic` <br/>
+Install react in the audio-recorder folder using: 
+Go to audio-recorder folder 
+`cd audio-recorder` <br/>
+and use this command <br/>
+`npm install` <br/>
 Next use command <br/>
 `npm start` <br/>
 to start frontend <br/>
