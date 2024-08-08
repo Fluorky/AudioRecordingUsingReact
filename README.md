@@ -3,13 +3,13 @@ This project is short PoC a web application that allows users to record audio an
 
 ## Download the app
 
-`git clone https://github.com/yourusername/AudioRecorderProject.git`<br/>
+`git clone https://github.com/fluorky/AudioRecorderProject.git`<br/>
 `cd AudioRecorderProject`
 
 ## Setup the backend
 `cd MockAPI` <br/>
-`python3 -m venv venv`<br/>
-`source venv/bin/activate`  # On Windows use `venv\Scripts\activate` <br/>
+`python -m venv venv` or `python3 -m venv venv`(if you use linux/MacOS) <br/>
+`. venv\Scripts\activate` or `source venv/bin/activate`  (if you use linux/MacOS)<br/>
 `pip install -r requirements.txt` <br/>
 `python -m app.py` or `python3 app.py` (if you use linux/MacOS) <br/>
 
